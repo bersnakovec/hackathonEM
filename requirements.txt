@@ -4,4 +4,3 @@ plotly
 scikit-learn
 numpy
 xgboost
-glob
