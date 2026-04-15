@@ -152,13 +152,6 @@ Projekt uporablja naslednje glavne knjižnice:
 - `xgboost` za model anomalij,
 - `scikit-learn` kot podpora pri strojnem učenju.
 
-## Omejitve in opombe
-
-- Kakovost zaznavanja anomalij je odvisna od kakovosti vhodnih CSV datotek.
-- Če CSV nima ustreznega formata, se lahko vrstica ali celotna datoteka preskoči.
-- Časovna os namerno ne prikazuje leta, da je graf bolj pregleden.
-- Model je odvisen od pravilnega ujemanja značilk v `model_features.pkl`.
-
 ## Kratek povzetek za uporabo
 
 1. Namestite odvisnosti.
@@ -166,6 +159,7 @@ Projekt uporablja naslednje glavne knjižnice:
 3. Naložite eno ali več CSV datotek.
 4. Izberite način prikaza grafa.
 5. Preglejte SAIDI, SAIFI in označene anomalije.
+
 
 
 
